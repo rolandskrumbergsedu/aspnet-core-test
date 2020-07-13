@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTest", "AspNetCoreTest\AspNetCoreTest.csproj", "{5746E0F2-AA31-4888-8580-F6AC4EF9537E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTest.DataAccess", "AspNetCoreTest.DataAccess\AspNetCoreTest.DataAccess.csproj", "{44D4321D-8326-4883-8A0C-EBA9AE6AA220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTest.DataAccess", "AspNetCoreTest.DataAccess\AspNetCoreTest.DataAccess.csproj", "{44D4321D-8326-4883-8A0C-EBA9AE6AA220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTest.DataAccess.Tests", "AspNetCoreTest.DataAccess.Tests\AspNetCoreTest.DataAccess.Tests.csproj", "{653191B3-882B-4043-B4DB-68A872DA52E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{44D4321D-8326-4883-8A0C-EBA9AE6AA220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44D4321D-8326-4883-8A0C-EBA9AE6AA220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44D4321D-8326-4883-8A0C-EBA9AE6AA220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653191B3-882B-4043-B4DB-68A872DA52E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653191B3-882B-4043-B4DB-68A872DA52E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653191B3-882B-4043-B4DB-68A872DA52E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653191B3-882B-4043-B4DB-68A872DA52E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
